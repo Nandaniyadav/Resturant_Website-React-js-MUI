@@ -1,11 +1,22 @@
-import React from 'react'
+import React from "react";
+import { AppBar, Box, Toolbar, Typography } from "@mui/material";
+import FastfoodIcon from '@mui/icons-material/Fastfood';
 
 const Header = () => {
   return (
     <div>
-      <h1>Navbar</h1>
+      <Box>
+        <AppBar component={"nav"} sx={{ bgcolor: "black" }}>
+          <Toolbar>
+            <Typography>
+            <FastfoodIcon />
+            My Resturant
+            </Typography>
+          </Toolbar>
+        </AppBar>
+      </Box>
     </div>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
