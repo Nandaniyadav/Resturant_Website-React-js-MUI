@@ -1,16 +1,13 @@
-import React, { Children } from 'react'
-import Header from './Header';
-import About from '../../pages/About';
+import React from 'react'
+import Header from './Header'
+
 const Layout = ({children}) => {
   return (
     <div>
     <Header/>
-    <About/>
       <div>{children}</div>
     </div>
   )
 }
 
-export default Layout;
-
-
+export default Layout

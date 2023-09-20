@@ -1,9 +1,9 @@
-import React, { Children } from 'react'
+import React from 'react'
 
-const Header = ({children}) => {
+const Header = () => {
   return (
     <div>
-      <h1>{children}</h1>
+      <h1>Navbar</h1>
     </div>
   )
 }

@@ -1,16 +1,14 @@
-
+import React from "react";
 import Layout from "./components/Layout/Layout";
-function App() {
+
+const App = () => {
   return (
     <div>
       <Layout>
-
-        <h1>Resturant Website</h1>
-
+        <h1>Reastuant Website</h1>
       </Layout>
     </div>
-
   );
-}
+};
 
 export default App;
