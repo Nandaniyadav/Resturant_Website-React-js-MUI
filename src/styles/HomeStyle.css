@@ -19,17 +19,18 @@
     font-weight: bold;
     font-size: 70px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: blue;
+    color: black;
 }
 .home .headercontainer p{
     margin-top: 15px;
     padding: 0;
     font-size: 40px;
     font-weight: lighter;
-    color: blue;
+    color: black;
 }
 .home .headercontainer button{
-    background-color: blue;
+    background-color: black;
+    color: white;
     margin-top: 20px;
     border: none;
     border-radius: 5px;

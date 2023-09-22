@@ -1,5 +1,5 @@
 import React from 'react'
-import Layout from '../components/Layout/Layout'
+import Layout from './../components/Layout/Layout'
 import { Box, Typography } from '@mui/material'
 
 const About = () => {
@@ -27,9 +27,15 @@ const About = () => {
       <Typography variant='h4'>
       Welcome to My Resturant
       </Typography>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, aspernatur temporibus, saepe consequatur veniam repellat corporis itaque amet mollitia, incidunt perspiciatis qui nesciunt consequuntur ipsa officia distinctio nihil assumenda? Eaque?</p>
+      <p>A restaurant (sometimes known as a diner) is a place where cooked food is sold to the public, and where people sit down to eat it. It is also a place where people go to enjoy the time and to eat a meal.
+
+      Some restaurants are a chain, meaning that there are restaurants which have the same name and serve the same food. McDonald's, Burger King, and Pizza Hut are examples of chain restaurants that are all over the world. .</p>
       <br />
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, ipsa similique! Tempore quae inventore quas. Eum cumque architecto quod incidunt ullam quae unde aut porro qui, ratione exercitationem quidem, rerum doloribus blanditiis eligendi beatae error atque nostrum ipsam perspiciatis repellendus molestiae sit. Harum, dolores dicta? Consequuntur, eius ipsam, ad magnam soluta modi beatae animi qui, obcaecati tenetur sequi molestias. Tempore repellat neque consequuntur hic itaque totam aspernatur ducimus ea optio ipsam fugit placeat provident, soluta sit sapiente pariatur rerum. Perferendis, quod sit labore laudantium dignissimos sed? Deleniti labore nulla esse dicta quasi, ab hic magni quas obcaecati accusantium provident magnam.</p>
+      <p>Experience unparalleled luxury at this premium property offering well-appointed rooms, an incredible restaurant, a full-service spa and a host of upscale amenities.
+
+      Rejuvenate your mind and body with holistic therapies at the on-site spa, Zivaya.
+      Enjoy a refreshing swim in the sparkling swimming pool.
+      Satiate your palate with international, Indian and local cuisines at the on-site restaurant, The Square.</p>
       </Box>
     </Layout>
   )
